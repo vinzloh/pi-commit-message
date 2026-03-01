@@ -1,0 +1,13 @@
+{
+  "name": "pi-commit-message",
+  "version": "1.0.0",
+  "scripts": {},
+  "keywords": [
+    "pi-skill"
+  ],
+  "pi": {
+    "skills": [
+      "./skills"
+    ]
+  }
+}
