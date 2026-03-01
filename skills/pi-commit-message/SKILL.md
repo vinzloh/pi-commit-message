@@ -28,6 +28,8 @@ Body requirements (MUST include):
      2. What action was taken
      3. Verification step (tests pass, typecheck succeeds, etc.)
 
-## Important requirements
+## Important requirements for commit message
 
-- Do not use quotes like `"` or `'` in commit message, instead use backticks ``
+- Do not use quotes, instead use backtick "`"
+- Wrap file paths in backtick "`"
+- If `.git/COMMIT_EDITMSG` was used, clean it up after use.
