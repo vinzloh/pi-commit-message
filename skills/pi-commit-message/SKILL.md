@@ -31,5 +31,6 @@ Body requirements (MUST include):
 ## Important requirements for commit message
 
 - Do not use quotes, instead use backtick "`"
-- Wrap file paths in backtick "`"
+- **Always wrap file paths in backticks** - e.g. \`pi-protected-path\`, \`src/utils.ts\`, \`package.json\`
+- Escape backticks with backslash when needed: \`pi-protected-paths\`
 - If `.git/COMMIT_EDITMSG` was used, clean it up after use.
