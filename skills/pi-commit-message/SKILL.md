@@ -27,3 +27,7 @@ Body requirements (MUST include):
      1. What was identified/found
      2. What action was taken
      3. Verification step (tests pass, typecheck succeeds, etc.)
+
+## Important requirements
+
+- Do not use quotes like `"` or `'` in commit message, instead use backticks ``
