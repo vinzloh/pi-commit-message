@@ -1,11 +1,17 @@
 ---
 name: pi-commit-message
-description: Use this skill before a git commit for git commit format.
+description: Use this skill before running git commit.
 ---
 
-# Git Commit Message Tool / Skill
+# Git Commit Tool / Skill
 
 Commit message format to use when using git commit
+
+## **CRITICAL** Forbidden Git Operations **CRITICAL**
+
+These commands can destroy other agents' work:
+
+- `git commit --no-verify` - bypasses required checks and is never allowed
 
 ## Commit Message Format
 
